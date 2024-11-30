@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "connection-manager"
+version = "0.1.0"
+description = "A CLI tool for managing remote connections"
+requires-python = ">=3.8"
+dependencies = [
+    "typer>=0.12.0",
+    "rich>=13.0.0",
+    "inquirerpy>=0.3.4",
+    "requests>=2.25.0"
+]
